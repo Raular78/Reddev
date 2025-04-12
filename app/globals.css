@@ -1,0 +1,235 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modificar las variables CSS para eliminar los tonos rosados y mejorar el contraste */
+
+/* Asegurar que los textos en modo claro tengan suficiente contraste */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --red-primary: 153, 27, 27; /* Cambiado a red-800 para un tono más oscuro */
+  --red-secondary: 185, 28, 28; /* Cambiado a red-700 */
+  --red-hover: 127, 29, 29; /* Cambiado a red-900 */
+  --text-gray: 31, 41, 55; /* Cambiado a gray-800 para mejor contraste */
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+  --red-primary: 185, 28, 28; /* Cambiado a red-700 para un tono más oscuro */
+  --red-secondary: 153, 27, 27; /* Cambiado a red-800 */
+  --red-hover: 220, 38, 38; /* Cambiado a red-600 */
+  --text-gray: 209, 213, 219; /* gray-300 */
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  overflow-x: hidden;
+}
+
+/* Personalización de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--background-rgb));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--red-primary));
+}
+
+/* Eliminar la regla que anula el cursor pointer */
+* {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Añadir regla específica para elementos interactivos */
+a,
+button,
+[role="button"],
+.group-hover,
+.hover\:,
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* Clases personalizadas para colores */
+.text-red-custom {
+  color: rgb(var(--red-primary));
+}
+
+.bg-red-custom {
+  background-color: rgb(var(--red-primary));
+}
+
+.border-red-custom {
+  border-color: rgb(var(--red-primary));
+}
+
+.hover\:text-red-custom:hover {
+  color: rgb(var(--red-primary));
+}
+
+.hover\:bg-red-custom:hover {
+  background-color: rgb(var(--red-primary));
+}
+
+.hover\:border-red-custom:hover {
+  border-color: rgb(var(--red-primary));
+}
+
+/* Sobrescribir clases de Tailwind para colores rojos */
+.text-red-500 {
+  color: rgb(var(--red-primary)) !important;
+}
+
+.bg-red-500 {
+  background-color: rgb(var(--red-primary)) !important;
+}
+
+.border-red-500 {
+  border-color: rgb(var(--red-primary)) !important;
+}
+
+.hover\:text-red-500:hover {
+  color: rgb(var(--red-primary)) !important;
+}
+
+.hover\:bg-red-500:hover {
+  background-color: rgb(var(--red-primary)) !important;
+}
+
+.hover\:border-red-500:hover {
+  border-color: rgb(var(--red-primary)) !important;
+}
+
+.text-red-600 {
+  color: rgb(var(--red-secondary)) !important;
+}
+
+.hover\:text-red-600:hover {
+  color: rgb(var(--red-secondary)) !important;
+}
+
+.hover\:bg-red-600:hover {
+  background-color: rgb(var(--red-secondary)) !important;
+}
+
+/* Asegurar que los textos grises sean suficientemente oscuros en modo claro */
+.text-gray-300,
+.text-gray-400,
+.text-gray-500 {
+  color: rgb(var(--text-gray)) !important;
+}
+
+/* Estilos para la prosa */
+.prose {
+  max-width: none;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: rgb(var(--foreground-rgb));
+}
+
+.prose p,
+.prose ul,
+.prose ol {
+  color: rgb(var(--text-gray));
+}
+
+.prose a {
+  color: rgb(var(--red-primary));
+  text-decoration: none;
+}
+
+.prose a:hover {
+  color: rgb(var(--red-hover));
+}
+
+.prose blockquote {
+  border-left: 4px solid rgb(var(--red-primary));
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* Asegurar que los botones tengan texto blanco */
+button,
+.button,
+a.button,
+button.bg-red-500,
+a.bg-red-500 {
+  color: white;
+}
+
+button.bg-transparent,
+a.bg-transparent {
+  color: rgb(var(--foreground-rgb));
+}
+
+/* Clases de utilidad para grupo */
+.group:hover .group-hover\:text-red-500 {
+  color: rgb(var(--red-primary)) !important;
+}
+
+/* Añadir reglas específicas para mejorar el contraste en fondos claros */
+.bg-gradient-to-r.from-red-500\/20,
+.bg-gradient-to-r.from-red-500\/10 {
+  background: linear-gradient(to right, rgba(153, 27, 27, 0.2), transparent);
+}
+
+.dark .bg-gradient-to-r.from-red-500\/20,
+.dark .bg-gradient-to-r.from-red-500\/10 {
+  background: linear-gradient(to right, rgba(185, 28, 28, 0.2), transparent);
+}
+
+/* Asegurar que el texto sea legible en fondos claros */
+.bg-gradient-to-r.from-red-500\/20 h3,
+.bg-gradient-to-r.from-red-500\/10 h3 {
+  color: rgb(17, 24, 39); /* gray-900 */
+}
+
+.bg-gradient-to-r.from-red-500\/20 p,
+.bg-gradient-to-r.from-red-500\/10 p {
+  color: rgb(31, 41, 55); /* gray-800 */
+}
+
+.dark .bg-gradient-to-r.from-red-500\/20 h3,
+.dark .bg-gradient-to-r.from-red-500\/10 h3,
+.dark .bg-gradient-to-r.from-red-500\/20 p,
+.dark .bg-gradient-to-r.from-red-500\/10 p {
+  color: rgb(229, 231, 235); /* gray-200 */
+}
+
+/* Asegurar que el footer tenga texto blanco en ambos modos */
+footer {
+  color: white !important;
+}
+
+footer a,
+footer p,
+footer h3,
+footer .text-gray-500 {
+  color: white !important;
+}
+
+footer .text-gray-500:hover {
+  color: rgb(var(--red-primary)) !important;
+}
+
+
+
+
+
+
+

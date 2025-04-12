@@ -1,0 +1,14 @@
+<script>start("c:\\Users\\rarjo\\Desktop\\PROYECTOS WEB\\reddev-website\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow(".next",".next",1,0,"0 B",1744022579,"4/7/25, 12:42:59 PM");</script>
+<script>addRow("app","app",1,0,"0 B",1743790090,"4/4/25, 8:08:10 PM");</script>
+<script>addRow("components","components",1,0,"0 B",1744219653,"4/9/25, 7:27:33 PM");</script>
+<script>addRow("node_modules","node_modules",1,0,"0 B",1743787589,"4/4/25, 7:26:29 PM");</script>
+<script>addRow("public","public",1,0,"0 B",1742841833,"3/24/25, 7:43:53 PM");</script>
+<script>addRow("next-env.d.ts","next-env.d.ts",0,233,"233 B",1742842244,"3/24/25, 7:50:44 PM");</script>
+<script>addRow("next.config.mjs","next.config.mjs",0,456,"456 B",1743788607,"4/4/25, 7:43:27 PM");</script>
+<script>addRow("package-lock.json","package-lock.json",0,251502,"246 kB",1743787593,"4/4/25, 7:26:33 PM");</script>
+<script>addRow("package.json","package.json",0,812,"812 B",1743787589,"4/4/25, 7:26:29 PM");</script>
+<script>addRow("postcss.config.js","postcss.config.js",0,96,"96 B",1742842168,"3/24/25, 7:49:28 PM");</script>
+<script>addRow("tailwind.config.ts","tailwind.config.ts",0,2973,"2.9 kB",1742841833,"3/24/25, 7:43:53 PM");</script>
+<script>addRow("tsconfig.json","tsconfig.json",0,672,"672 B",1742842083,"3/24/25, 7:48:03 PM");</script>

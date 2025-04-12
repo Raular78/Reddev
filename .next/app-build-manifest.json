@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-bb367eba3fb38883.js",
+      "static/chunks/117-efe29cf2ee6276e4.js",
+      "static/chunks/main-app-90ff183db9fdcb24.js",
+      "static/chunks/app/_not-found/page-6dda2160e3ac54e4.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-bb367eba3fb38883.js",
+      "static/chunks/117-efe29cf2ee6276e4.js",
+      "static/chunks/main-app-90ff183db9fdcb24.js",
+      "static/css/ded1a161609696b4.css",
+      "static/chunks/app/layout-9b7faed0b432c409.js"
+    ],
+    "/proyectos/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-bb367eba3fb38883.js",
+      "static/chunks/117-efe29cf2ee6276e4.js",
+      "static/chunks/main-app-90ff183db9fdcb24.js",
+      "static/chunks/957-c1b02c414fcfcc49.js",
+      "static/chunks/app/proyectos/page-8971bda626b45f35.js"
+    ],
+    "/recursos/whitepaper/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-bb367eba3fb38883.js",
+      "static/chunks/117-efe29cf2ee6276e4.js",
+      "static/chunks/main-app-90ff183db9fdcb24.js",
+      "static/chunks/957-c1b02c414fcfcc49.js",
+      "static/chunks/app/recursos/whitepaper/page-e27330dce6464966.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-bb367eba3fb38883.js",
+      "static/chunks/117-efe29cf2ee6276e4.js",
+      "static/chunks/main-app-90ff183db9fdcb24.js",
+      "static/chunks/957-c1b02c414fcfcc49.js",
+      "static/chunks/480-e58727e43dca652a.js",
+      "static/chunks/app/page-63c3e92ade24d70a.js"
+    ],
+    "/contacto/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-bb367eba3fb38883.js",
+      "static/chunks/117-efe29cf2ee6276e4.js",
+      "static/chunks/main-app-90ff183db9fdcb24.js",
+      "static/chunks/957-c1b02c414fcfcc49.js",
+      "static/chunks/app/contacto/page-6f8303bc4ec4c445.js"
+    ]
+  }
+}
